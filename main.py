@@ -74,7 +74,7 @@ def classification(data: Classification):
 
   print(style_map[text_styles[predictions.item()]])
 
-  return text_styles[predictions.item()]
+  return text_styles[predictions.item()], style_map[text_styles[predictions.item()]]
 
 @app.post("/transform")
 def classification(data: Transform):
