@@ -12,6 +12,6 @@
     3. 가상환경 실행 `source env/bin/activate`
     4.  필요한 모듈 설치
         `pip3 install fastapi "uvicorn[standard]" torch transformers sentencepiece`
-        `pip3 install 'git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf’`
+        `pip3 install 'git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf'`
     5. AI 모델 폴더(style_classification, style_transform)를 프로젝트 디렉토리 내부에 넣어준 후, 
     6. 서버 실행 `uvicorn main:app --reload`
